@@ -1,53 +1,53 @@
-# Ejercicios de Manipulación de Arreglos en Python
+# Python Array Manipulation Exercises
 
-Este repositorio contiene una serie de ejercicios enfocados en la generación y manipulación de arreglos unidimensionales y bidimensionales, con validaciones y manejo de errores, utilizando Python.
+This repository contains a set of exercises focused on the creation and manipulation of one-dimensional and two-dimensional arrays, including validations and error handling using Python.
 
-## Ejercicio 1: Generación de un array de 20 números enteros
-**Descripción**: Escribir un programa que genere aleatoriamente un array de 20 números enteros. La suma de los primeros 10 elementos debe ser mayor que la suma de los 10 últimos elementos. El programa debe mostrar tanto el array original como el modificado.
+## Exercise 1: Generate an array of 20 integers
+**Description**: Write a program that randomly generates an array of 20 integers. The sum of the first 10 elements must be greater than the sum of the last 10 elements. The program must display both the original and the modified array.
 
-**Condiciones**:
-- Al menos un arreglo debe ser utilizado, dependiendo de la lógica.
-- Incluir validaciones (propias o utilizando funciones).
-- Los arreglos deben inicializarse antes de ser utilizados.
-- Evitar interrupciones del programa debido a errores.
-- Se puede usar la librería `random` para la generación de números aleatorios.
+**Requirements**:
+- Use at least one array, depending on the logic.
+- Include validations (custom or using built-in functions).
+- Arrays must be initialized before use.
+- Prevent program interruptions due to errors.
+- The `random` library can be used to generate random numbers.
 
-## Ejercicio 2: Intercambio de filas en un array bidimensional
-**Descripción**: Escribir una función que intercambie la fila i-ésima por la j-ésima de un array bidimensional de tamaño m × n.
+## Exercise 2: Row swap in a 2D array
+**Description**: Write a function that swaps the i-th row with the j-th row in a 2D array of size m × n.
 
-**Condiciones**:
-- Utilizar un arreglo bidimensional (puede tener valores predefinidos).
-- Validar correctamente las entradas (propias o utilitarias).
-- Los arreglos deben inicializarse antes de ser utilizados.
-- El programa debe manejar correctamente los errores para evitar interrupciones.
+**Requirements**:
+- Use a two-dimensional array (can be pre-filled with values).
+- Properly validate inputs (custom or utility-based).
+- Arrays must be initialized before use.
+- The program should handle errors properly to avoid crashes.
 
-## Ejercicio 3: Sustitución de valores duplicados en un array
-**Descripción**: Escribir una función que acepte un array con números enteros duplicados. Cada valor repetido debe ser reemplazado por `-5`, y la función debe devolver el array modificado junto con el número de entradas modificadas.
+## Exercise 3: Replace duplicate values in an array
+**Description**: Write a function that takes an array with duplicate integers. Each repeated value should be replaced with `-5`, and the function must return the modified array along with the count of modified entries.
 
-**Condiciones**:
-- Usar al menos un arreglo, que puede tener valores predefinidos.
-- Validaciones pertinentes (propias o por utilitarias).
-- Inicializar los arreglos antes de usarlos.
-- Evitar errores de interrupción.
+**Requirements**:
+- Use at least one array, which can have predefined values.
+- Include proper validations (custom or utility-based).
+- Arrays must be initialized before use.
+- Prevent program interruptions due to errors.
 
-## Ejercicio 4: Lectura de texto en un array de cadenas
-**Descripción**: Definir un array de cadenas para leer un texto de hasta 80 líneas. Crear un método que reciba el texto y el número de líneas como argumentos.
+## Exercise 4: Text reading into a string array
+**Description**: Define an array of strings to read a text of up to 80 lines. Create a method that receives the text and the number of lines as arguments.
 
-**Condiciones**:
-- Utilizar al menos un arreglo.
-- Incluir validaciones pertinentes.
-- Inicializar los arreglos antes de anexar los datos.
-- Evitar errores de interrupción del programa.
+**Requirements**:
+- Use at least one array.
+- Include necessary validations.
+- Arrays must be initialized before appending data.
+- Prevent errors that could interrupt the program.
 
-## Ejercicio 5: Procesamiento de datos electorales
-**Descripción**: Procesar los resultados de las elecciones a alcalde en un pueblo, donde se debe:
-1. Imprimir la tabla con los votos por cada candidato.
-2. Calcular e imprimir el total de votos recibidos por cada candidato y el porcentaje de votos.
-3. Identificar al candidato con más del 50% de los votos o los dos más votados para la segunda ronda.
+## Exercise 5: Electoral data processing
+**Description**: Process the results of a mayoral election in a town, where the program must:
+1. Print the vote table per candidate.
+2. Calculate and print the total votes received by each candidate and their vote percentage.
+3. Identify the candidate with more than 50% of the votes or the two most voted candidates for a second round.
 
-**Tabla de datos electorales**:
+**Electoral Data Table**:
 
-| Distrito | Candidato A | Candidato B | Candidato C | Candidato D |
+| District | Candidate A | Candidate B | Candidate C | Candidate D |
 |----------|-------------|-------------|-------------|-------------|
 | 1        | 194         | 48          | 206         | 45          |
 | 2        | 180         | 20          | 320         | 16          |
@@ -55,17 +55,17 @@ Este repositorio contiene una serie de ejercicios enfocados en la generación y 
 | 4        | 432         | 50          | 821         | 14          |
 | 5        | 820         | 61          | 946         | 18          |
 
-**Condiciones**:
-- Usar arreglos unidimensionales y bidimensionales.
-- Realizar validaciones pertinentes.
-- Inicializar los arreglos antes de anexar los datos.
-- Evitar errores de interrupción del programa.
+**Requirements**:
+- Use one-dimensional and two-dimensional arrays.
+- Perform necessary validations.
+- Arrays must be initialized before appending data.
+- Avoid program interruptions due to errors.
 
-## Ejercicio 6: Suma de elementos en un array bidimensional
-**Descripción**: Crear un programa que permita sumar los elementos de la diagonal principal y la triangular superior de un array bidimensional N×M, restando luego la suma de los elementos de la triangular inferior.
+## Exercise 6: Sum elements in a 2D array
+**Description**: Create a program that calculates the sum of the elements in the main diagonal and the upper triangle of an N×M 2D array, then subtracts the sum of the elements in the lower triangle.
 
-**Condiciones**:
-- Utilizar un arreglo bidimensional.
-- Validaciones pertinentes.
-- Inicializar los arreglos antes de ser usados.
-- Manejar correctamente los errores para evitar interrupciones del programa.
+**Requirements**:
+- Use a two-dimensional array.
+- Include necessary validations.
+- Arrays must be initialized before use.
+- Properly handle errors to avoid program crashes.
